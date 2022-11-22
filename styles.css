@@ -13,10 +13,12 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Page background */
 body {
     background: #141414;
 }
 
+/* Scrollbar styling (for some reason not working properly) */
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -151,21 +153,26 @@ li:hover {
     font-weight: 500;
 }
 
+/* Styling for the welcome section box */
 #welcome-section {
+    /* Positioning */
     margin-top: 150px;
     margin-left: 17%;
     position: relative;
     width: 1000px;
     height: 500px;
 
+    /* Styling */
     background: #000000;
     border-radius: 20px;
 }
 
+/* Text styling */
 .text {
     font-family: 'Inter', sans-serif;
 }
 
+/* Styling of text using individual class selecting */
 .text:nth-of-type(1) {
     position: absolute;
     left: 415px;
@@ -173,6 +180,7 @@ li:hover {
     font-size: 2.5rem;
     text-align: center;
 
+    /* Coloring */
     color: #FFFFFF;
 }
 
@@ -193,18 +201,22 @@ li:hover {
     margin-left: 340px;
 }
 
+/* Styling for navigation button in welcome section */
 #nav-button {
+    /* Positioning */
     position: absolute;
     left: 403px;
     top: 300px;
     width: 200px;
     height: 50px;
 
+    /* Styling */
     font-family: 'Inter', sans-serif;
     background: #0e0e0e;
     border-radius: 10px;
 }
 
+/* Text styling for the button */
 #btn-text {
     font-size: 1.5rem;
 
@@ -214,81 +226,103 @@ li:hover {
     -webkit-text-fill-color: transparent; */
 }
 
+/* Hover effect on the button */
 #nav-button:hover {
     background: linear-gradient(to right, #6842D6, #C8B5FF);
 }
 
+/* Styling for the about section box */
 #about {
+    /* Positioning */
     position: relative;
     margin-top: 100px;
     margin-left: 17%;
     width: 1000px;
     height: 500px;
 
+    /* Styling */
     background: #000000;
     border-radius: 20px;
 }
 
+/* Styling for the header in the about section */
 #header {
+    /* Positioning */
     position: absolute;
     margin-top: 160px;
     margin-left: 550px;
+
+    /* Styling */
     font-size: 2.5rem;
     font-family: 'Inter', sans-serif;
-
     background: -webkit-linear-gradient(45deg, #6842D6, #C8B5FF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
+/* Border for the profile picture */
 #profile-border {
+    /* Positioning */
     position: absolute;
     width: 310px;
     height: 310px;
     margin-top: 100px;
     margin-left: 50px;
 
+    /* Styling */
     border-radius: 35px;
     background: linear-gradient(to right, #6842D6, #C8B5FF);
 }
 
+/* Styling for the profile picture */
 #about-profile {
+    /* Positioning */
     position: absolute;
     width: 300px;
     height: 300px;
     margin: 5px 5px;
     margin-top: 5px;
 
+    /* Styling */
     border-radius: 30px;
 }
 
+/* Styling for the description */
 #description {
+    /* Positioning */
     position: absolute;
-    font-size: 1.5rem;
     width: 400px;
     margin-left: 550px;
     margin-top: 220px;
 
+    /* Styling */
+    font-size: 1.5rem;
     font-family: 'Inter', sans-serif;
     color: #FFFFFF;
 }
 
+/* Styling for the projects box */
 #projects {
+    /* Positioning */
     position: relative;
     margin-top: 100px;
     margin-left: 17%;
     width: 1000px;
     height: 500px;
 
+    /* Styling */
     background: #000000;
     border-radius: 20px;
 }
 
+/* Styling for the projects header */
 #project-header {
+    /* Positioning */
     position: absolute;
     margin-left: 420px;
     margin-top: 32px;
 
+    /* Styling */
     font-family: 'Inter', sans-serif;
     font-size: 2.5rem;
     background: -webkit-linear-gradient(45deg, #6842D6, #C8B5FF);
@@ -296,133 +330,165 @@ li:hover {
     -webkit-text-fill-color: transparent;
 }
 
+/* Border for first project */
 #project-border-1 {
+    /* Positioning */
     position: absolute;
     width: 210px;
     height: 360px;
     margin-left: 95px;
     margin-top: 100px;
 
+    /* Styling */
     border-radius: 35px;
     background: linear-gradient(to right, #6842D6, #C8B5FF);
 }
 
+/* Border for second project */
 #project-border-2 {
+    /* Positioning */
     position: absolute;
     width: 210px;
     height: 360px;
     margin-left: 395px;
     margin-top: 100px;
 
+    /* Styling */
     border-radius: 35px;
     background: linear-gradient(to right, #6842D6, #C8B5FF);
 }
 
+/* Border for third project */
 #project-border-3 {
+    /* Positioning */
     position: absolute;
     width: 210px;
     height: 360px;
     margin-left: 695px;
     margin-top: 100px;
 
+    /* Styling */
     border-radius: 35px;
     background: linear-gradient(to right, #6842D6, #C8B5FF);
 }
 
+/* First project box styling */
 #project-1 {
+    /* Positioning */
     box-sizing: border-box;
-
     position: absolute;
     width: 200px;
     height: 350px;
     margin-top: 5px;
     margin-left: 5px;
 
+    /* Styling */
     background: rgba(37, 37, 37, 0.9);
     border: 3px solid linear-gradien(45deg, #6842D6, #C8B5FF);
     border-radius: 30px;
 }
 
+/* Second project box styling */
 #project-2 {
+    /* Positioning */
     box-sizing: border-box;
-
     position: absolute;
     width: 200px;
     height: 350px;
     margin-top: 5px;
     margin-left: 5px;
 
+    /* Styling */
     background: rgba(37, 37, 37, 0.9);
     border: 3px solid linear-gradien(45deg, #6842D6, #C8B5FF);
     border-radius: 30px;
 }
 
+/* Third project box styling */
 #project-3 {
+    /* Positioning */
     box-sizing: border-box;
-
     position: absolute;
     width: 200px;
     height: 350px;
     margin-top: 5px;
     margin-left: 5px;
 
+    /* Styling */
     background: rgba(37, 37, 37, 0.9);
     border: 3px solid linear-gradien(45deg, #6842D6, #C8B5FF);
     border-radius: 30px;
 }
 
+/* Project titles' basic styling */
 h2 {
+    /* Positioning */
     position: absolute;
     z-index: 5;
 
+    /* Styling */
     font-family: 'Inter', sans-serif;
     color: #FFFFFF;
     font-size: 1.5rem;
 }
 
+/* First title styling */
 #project-title-1 {
     margin-top: 310px;
     margin-left: 53px;
 }
 
+/* Second title styling */
 #project-title-2 {
     margin-top: 310px;
     margin-left: 53px;
 }
 
+/* Third title styling */
 #project-title-3 {
     margin-top: 310px;
     margin-left: 53px;
 }
 
+/* Bottom of page styling */
 footer {
+    /* Positioning */
     width: 100%;
     height: 200px;
     margin-top: 50px;
+
+    /* Styling */
     background: #000000;
 }
 
+/* Styling of the 'Coming soon' text */
 #coming-soon {
+    /* Positioning */
     position: absolute;
     margin-top: 50px;
     margin-left: 470px;
 
+    /* Styling */
     font-family: 'Inter', sans-serif;
     color: #FFFFFF;
 }
 
+/* Styling of the scond navigation button */
 #nav-button-2 {
+    /* Positioning */
     position: absolute;
     margin-top: 100px;
     margin-left: 620px;
     width: 200px;
     height: 50px;
 
+    /* Styling */
     font-family: 'Inter', sans-serif;
     background: #0e0e0e;
     border-radius: 10px;
 }
 
+/* Nav button hover effect */
 #nav-button-2:hover {
     background: linear-gradient(to right, #6842D6, #C8B5FF);
 }
