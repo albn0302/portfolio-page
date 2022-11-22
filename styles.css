@@ -8,8 +8,6 @@
 /* Inter font import (sizes 400 and 500) */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
 
-@media only screen and (max-width: 1920px) {}
-
 /* Page scroll behavior */
 html {
     scroll-behavior: smooth;
@@ -17,6 +15,22 @@ html {
 
 body {
     background: #141414;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #141414;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #000000;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(13, 13, 13);
 }
 
 /* Navbar styling */
@@ -412,3 +426,9 @@ footer {
 #nav-button-2:hover {
     background: linear-gradient(to right, #6842D6, #C8B5FF);
 }
+
+/* @media only screen and (max-width: 1980px) {
+    #line-2 {
+        margin-left: 1470px;
+    }
+} */
